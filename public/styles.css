@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+    cursor: pointer;
+}
+
+#drop-area.highlight {
+    border-color: purple;
+}
+
+#file-count {
+    margin-top: 10px;
+}
